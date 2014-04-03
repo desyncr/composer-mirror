@@ -1,0 +1,85 @@
+{
+    "name": "Mirror",
+    "homepage": "http://mirror.packagist.dev:4680",
+    "require-dependencies": true,
+    "require": {
+        "zendframework/zendframework": "2.2.*",
+        "doctrine/doctrine-orm-module": "0.7.*",
+
+        "imagine/Imagine" : "0.3.*",
+        "radnan/rdn-upload" : "1.*",
+
+        "desyncr/zf-annotations": "0.*",
+
+        "publero/net_gearman": "1.0.x-dev",
+        "desyncr/wtngrm-gearman": "0.2.*",
+
+        "heartsentwined/zf2-cron": "2.*",
+        "desyncr/wtngrm-cron": "0.2.*",
+
+        "acelaya/zf2-acmailer": "dev-master",
+
+        "desyncr/connected-zmq": "0.2.*",
+        "desyncr/connected-doctrine": "0.2.*",
+
+        "zf-commons/zfc-user": "0.1.*",
+        "zf-commons/zfc-user-doctrine-orm": "0.1.*",
+        "bjyoungblood/bjy-authorize": "1.2.*",
+
+        "desyncr/jms-serializer-module": "dev-master",
+
+        "sm/core" : "dev-master",
+        "zendframework/zftool": "dev-master",
+        "d11wtq/boris": "dev-master",
+        "zendframework/zend-developer-tools": "dev-master",
+
+        "phpunit/phpunit": "3.7.28"
+   },
+   "repositories": [
+        {
+            "type" : "vcs",
+            "url" : "http://github.com/desyncr/zf-annotations"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/wtngrm"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/wtngrm-gearman"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/wtngrm-beanstalk"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/connected"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/connected-zmq"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/connected-doctrine"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/wtngrm-cron"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/JMSSerializerModule"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/JMSSerializerModule"
+        },
+        {
+            "type": "vcs",
+            "url": "svn://svn.braintive.com/sm-core"
+        },
+        { "type": "composer", "url": "https://packagist.org" }
+   ]
+}

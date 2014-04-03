@@ -1,5 +1,7 @@
 /.settings
 /.project
+/mirror
+packages.conf
 /.buildpath
 /satis.phar
 /vendor
